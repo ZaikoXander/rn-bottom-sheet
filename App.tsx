@@ -1,10 +1,10 @@
 import { StatusBar } from "expo-status-bar"
 import { useCallback, useRef } from "react"
 import { StyleSheet, TouchableOpacity, View } from "react-native"
+
 import { GestureHandlerRootView } from "react-native-gesture-handler"
 
 import { BottomSheet, BottomSheetRefProps } from "./components/BottomSheet"
-
 
 export default function App() {
   const ref = useRef<BottomSheetRefProps>(null)
